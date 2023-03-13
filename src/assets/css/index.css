@@ -1,0 +1,413 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#Testimonials {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+#cardsTestimonials {
+  background: #f1f3ff;
+}
+
+#Testimonials .swiper {
+  margin-top: 40px;
+  padding-bottom: 4rem;
+}
+
+#Testimonials .swiper-button-prev {
+  left: calc(50% - 40px) !important;
+}
+
+#Testimonials .swiper-button-next {
+  right: calc(50% - 40px) !important;
+}
+
+#Testimonials .swiper-button-next,
+#Testimonials .swiper-button-prev {
+  width: 32px !important;
+  height: 32px !important;
+  background: #5cb85f;
+  border-radius: 50%;
+  top: unset !important;
+  bottom: 0 !important;
+}
+
+#Testimonials .swiper-button-next::after,
+#Testimonials .swiper-button-prev::after {
+  font-size: 1rem !important;
+  color: #fff;
+  font-weight: 900;
+}
+.bg {
+  background-color: #f1f3ff;
+}
+.navbar-brand {
+  background-color: #0d6efd;
+  border-radius: 2px;
+}
+.burger-menu {
+  width: 24px;
+  height: 24px;
+  stroke: #fff;
+}
+.hero-section {
+  position: relative;
+  overflow: hidden;
+  background-color: #f1f3ff;
+}
+
+.feature-section {
+  padding: 100px 0px 50px 0px;
+}
+.why-us-section {
+  padding: 50px 0px 100px 0px;
+}
+
+.tagline-heading {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.5;
+}
+.tagline-desc {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  margin-top: 30px;
+}
+
+.btn {
+  margin-top: 5px;
+}
+.checks {
+  width: 24px;
+  height: 24px;
+}
+.foot-button {
+  padding: 8px 8px;
+  border: 0px;
+  border-radius: 2px;
+  background-color: #0d28a6;
+  color: #0d28a6;
+}
+
+/* Why Us Section Styling */
+
+.card-style {
+  width: 17rem;
+}
+.why-title,
+.list-title,
+.faq-title {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+}
+.why-description,
+.list-description,
+.faq-description {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+}
+.card-title {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+}
+.card-text,
+.list-text {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+/* Testimoni Section Styling */
+.test-card {
+  background-color: #f1f3ff;
+  width: 619px;
+  height: 270px;
+  border-radius: 7px;
+}
+.pp-img {
+  width: 80px;
+  height: 80px;
+}
+/* CTA Section Styling */
+.cta-section {
+  margin-top: 120px;
+  padding: 75px 0px;
+  background-color: #0d28a6;
+  border-radius: 13px;
+}
+.cta-title {
+  color: #fff;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 150%;
+}
+.cta-text {
+  color: #fff;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+/* FAQ Styling Section */
+.faq-section {
+  padding: 75px 0px;
+}
+
+#faq #faqAccordion .accordion-item {
+  background: #ffffff;
+  border: 1px solid #d4d4d4;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+#faq #faqAccordion .accordion-button {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+/* Footer Section Styling */
+.footer-margin {
+  margin: 8rem auto;
+}
+.footer-text {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.menu-footer {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+}
+/* Search car Section Styling */
+
+.list-form {
+  padding: 1rem;
+  width: 100%;
+  height: 106px;
+  background: white;
+  border: 1px solid #d8d8d8;
+  margin-bottom: -50px;
+  border-radius: 10px;
+  position: relative;
+  z-index: 2;
+  box-shadow: 0px 0px 5px #cacaca;
+}
+
+.contains-box {
+  margin-top: -4rem;
+  padding-right: 21rem;
+  padding-left: 21rem;
+}
+.backdrop {
+  width: 100%;
+  background: #00000080;
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100%;
+}
+.card-size {
+  width: 100%;
+  background: #fff;
+}
+.contains-car {
+  margin: 0 auto;
+  padding-top: 5rem;
+}
+.card-image-size {
+  height: 200px;
+  padding: 24px 24px 0px 24px;
+}
+.car-size-list {
+  max-width: 100%;
+}
+.card-content {
+  margin-top: 2rem;
+}
+.card-car-desc {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  color: #000000;
+}
+
+/* Detail Car Section Styling */
+
+.user-car-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+.list-detail {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 175%;
+  color: #8a8a8a;
+}
+.title-detail {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  color: #000000;
+}
+
+/* Responsive Setting */
+@media only screen and (min-width: 1200px) {
+  .car-img {
+    max-width: 100%;
+    height: auto;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+  .hero-section {
+    padding: 150px 0px;
+  }
+  #cardsTestimonials {
+    padding: 69px 46px !important;
+    margin: 0px 45px !important;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .car-img {
+    width: 500px;
+    height: auto;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+  .hero-section {
+    padding: 100px 0px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .hero-section {
+    padding: 50px 0 50px 0px;
+  }
+  .tagline-heading {
+    font-size: 22px;
+  }
+  .tagline-desc {
+    font-size: 12px;
+  }
+  .car-img {
+    max-width: 700px;
+    width: 50%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+  /* Feature Section Styling */
+  .img-service {
+    max-width: 100%;
+  }
+
+  /* Why Us Styling */
+  .card-style {
+    width: 21rem;
+  }
+  #cardsTestimonials {
+    padding: 40px 32px !important;
+    width: 100% !important;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .hero-section {
+    padding: 75px 0px 280px 0px;
+  }
+  .car-img {
+    max-width: 100%;
+    position: absolute;
+  }
+  .tagline-heading {
+    font-size: 47px;
+  }
+  /* Feature Section Styling */
+  .img-service {
+    width: auto;
+  }
+  /* Why Us Styling */
+  .why-center {
+    text-align: center;
+  }
+  .card-style {
+    width: auto;
+  }
+  /* cta section styling */
+  .cta-title {
+    font-family: "Arial";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+  }
+  .cta-section {
+    width: auto;
+    margin: 100px 15px;
+  }
+  .faq-description,
+  .faq-title {
+    margin-left: 26px;
+  }
+  /* Testimonial Slider Styling */
+  #cardsTestimonials {
+    padding: 40px 32px !important;
+    width: 100% !important;
+  }
+  .accordion-item {
+    margin-bottom: 20px;
+  }
+}
+@media screen and(min-width: 576px) {
+  .faq-section {
+    width: auto;
+  }
+  .faq-description,
+  .faq-title {
+    margin-left: 26px;
+  }
+  #cardsTestimonials {
+    padding: 40px 32px !important;
+    width: 100% !important;
+  }
+}
